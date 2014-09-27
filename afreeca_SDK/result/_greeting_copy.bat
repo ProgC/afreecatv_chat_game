@@ -1,0 +1,1 @@
+copy greeting.lpi "C:\Program Files\NOWCOM\afreeca\plugins\."

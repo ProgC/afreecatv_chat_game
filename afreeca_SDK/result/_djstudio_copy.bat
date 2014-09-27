@@ -1,0 +1,1 @@
+copy djstudio.lpi "C:\Program Files\NOWCOM\afreeca\plugins\."

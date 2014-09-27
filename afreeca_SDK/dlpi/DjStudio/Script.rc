@@ -1,0 +1,143 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_STUDIO_DIALOG DIALOG DISCARDABLE  0, 0, 201, 150
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DJ Studio"
+FONT 9, "굴림"
+BEGIN
+    GROUPBOX        "배경화면",IDC_STATIC,3,5,196,44
+    LTEXT           "위치 :",IDC_STATIC,7,20,19,8
+    EDITTEXT        IDC_BITMAP_PATH_EDIT,28,17,125,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "찾기",IDC_BITMAP_FIND_BUTTON,156,16,39,16
+    LTEXT           "(압축되지 않은 320x240x24의 비트맵 파일만 지원 합니다.)",
+                    IDC_STATIC,7,35,188,10
+    GROUPBOX        "음악",IDC_STATIC,3,53,196,59
+    LTEXT           "위치 :",IDC_STATIC,7,68,19,8
+    EDITTEXT        IDC_WAVE_PATH_EDIT,28,65,125,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "찾기",IDC_WAVE_FIND_BUTTON,156,64,39,16
+    LTEXT           "(압축되지 않은 WAVE 파일만 지원 합니다.)",IDC_STATIC,60,
+                    84,136,8
+    LTEXT           "채널 :",IDC_STATIC,6,98,19,8
+    LTEXT           "",IDC_CHANNEL_STATIC,28,97,47,10,SS_SUNKEN
+    LTEXT           "주파수 :",IDC_STATIC,82,99,26,8
+    LTEXT           "",IDC_FREQUENCY_STATIC,111,98,45,10,SS_SUNKEN
+    GROUPBOX        "제어판",IDC_STATIC,3,116,196,32
+    PUSHBUTTON      "방송 준비 완료",IDC_READY_BUTTON,6,128,91,16
+    PUSHBUTTON      "설정 변경",IDC_CHANGE_BUTTON,104,128,91,16
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "(c)NOWCOM\0"
+            VALUE "FileDescription", "DjStudioWpi\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DjStudio\0"
+            VALUE "LegalCopyright", "Copyright ⓒ 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DjStudio.lpi\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DjStudio\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
